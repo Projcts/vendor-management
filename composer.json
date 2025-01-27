@@ -1,0 +1,24 @@
+{
+    "name": "alisons/vendor-management",
+    "description": "Vendor Managment",
+    "autoload": {
+        "psr-4": {
+            "Alisons\\VendorManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sulemanAlisons",
+            "email": "suleman@alisonstech.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alisons\\VendorManagement\\VendorManagementServiceProvider"
+            ]
+        }
+    }
+}
